@@ -8,7 +8,225 @@
 	font-weight:normal;
 	font-style:normal;
 }	
-	
+
+@font-face {
+    font-family: 'extrabold';
+    src: url('../fonts/extrabold.woff2') format('woff2'),
+         url('../fonts/extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.homepage{
+	font-family: "extrabold";
+	margin: 0px;
+}
+
+.homeheader{
+	background-image: url(../img/scaffold.png);
+	width: 1920px;
+	height: 254px;
+}
+
+.homeheadertext{
+	margin: 0px;
+	padding-top: 50px;
+	padding-left: 10px;
+	width: 1000px;
+	font-size: 35px;
+	color: white;
+}
+
+.homebody{
+	background-image: url(../img/concrete-collage.png);
+	margin: 0px;
+	width: 1920px;
+	height: 1080px;
+}	
+
+.home-taoc{
+	display: inline-block;
+	background-image: url(../img/home-taoc.png);
+	width: 200px;
+	height: 224px;
+	font-size: 45px;
+	color: transparent;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home-taoc:hover{
+	display: block;
+	background-image: url(../img/home-taoc.png);
+	width: 200px;
+	height: 224px;
+	font-size: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home-taoc:active{
+	display: inline-block;
+	background-image: url(../img/home-taoc.png);
+	width: 200px;
+	height: 224px;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home-taoc-xy{
+	float: left;
+	padding: 60px 60px 60px 60px;
+}
+
+.home-lib{
+	display: inline-block;
+	background-image: url(../img/home-lib.png);
+	width: 200px;
+	height: 324px;
+	font-size: 55px;
+	color: transparent;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.home-lib:hover{
+	display: inline-block;
+	background-image: url(../img/home-lib.png);
+	width: 200px;
+	height: 324px;
+	font-size: 55px;
+	color: white;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.home-lib:active{
+	display: inline-block;
+	background-image: url(../img/home-lib.png);
+	width: 200px;
+	height: 324px;
+	font-size: 55px;
+	color: black;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.home-lib-xy{
+	float: left;
+	padding: 60px 60px 60px 60px;
+}
+
+.home-paint{
+	display: inline-block;
+	background-image: url(../img/home-paint.png);
+	width: 200px;
+	height: 272px;
+	font-size: 40px;
+	color: transparent;
+	text-align: justify;
+	text-decoration: none;
+}
+.home-paint:hover{
+	display: inline-block;
+	background-image: url(../img/home-paint.png);
+	width: 200px;
+	height: 272px;
+	font-size: 40px;
+	color: white;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.home-paint:active{
+	display: inline-block;
+	background-image: url(../img/home-paint.png);
+	width: 200px;
+	height: 272px;
+	font-size: 40px;
+	color: black;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.home-paint-xy{
+	float: left;
+	padding: 60px 60px 60px 60px;
+}
+
+.home-misc{
+	display: inline-block;
+	background-image: url(../img/home-misc.png);
+	width: 200px;
+	height: 290px;
+	font-size: 40px;
+	color: transparent;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.home-misc:hover{
+	display: inline-block;
+	background-image: url(../img/home-misc.png);
+	width: 200px;
+	height: 290px;
+	font-size: 40px;
+	color: white;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.home-misc:active{
+	display: inline-block;
+	background-image: url(../img/home-misc.png);
+	width: 200px;
+	height: 290px;
+	font-size: 40px;
+	color: black;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.home-misc-xy{
+	float: left;
+	padding: 60px 60px 60px 60px;
+}
+
+.taoc{
+	background-image: url(../img/desk.png);
+	font-size: 30px;
+	font-family: "Magic Cards Normal";
+}
+
+.journal{
+	background-image: url(../img/journal.png);
+	width: 1100px;
+	height: 685px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left-page{
+	float: left;
+	width: 450px;
+	height: 685px;
+	padding-top: 0px;
+	padding-left: 60px;
+	padding-right: 30px;
+}
+
+.right-page{
+	float: right;
+	width: 450px;
+	height: 685px;
+	padding-top: 0px;
+	padding-left: 40px;
+	padding-right: 60px;
+}
+
 .mwind-btn {
 	display: inline-block;
 	padding: 0 20px;
@@ -65,38 +283,6 @@
 	text-decoration: none;
 }
 
-.taoc{
-	background-image: url(../img/desk.png);
-	font-size: 30px;
-	font-family: "Magic Cards Normal";
-}
-
-.journal{
-	background-image: url(../img/journal.png);
-	width: 1100px;
-	height: 685px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.left-page{
-	float: left;
-	width: 450px;
-	height: 685px;
-	padding-top: 0px;
-	padding-left: 60px;
-	padding-right: 30px;
-}
-
-.right-page{
-	float: right;
-	width: 450px;
-	height: 685px;
-	padding-top: 0px;
-	padding-left: 40px;
-	padding-right: 60px;
-}
-
 .nav-left{
 	float:left;
 	width: 40%;
@@ -119,4 +305,39 @@
 	text-align: center;
 	clear: both;
 	font-size: 20px;	
+}
+
+.lib-home{
+	display: inline-block;
+	background-color: #fff6a1;
+	width: 100px;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.lib-home:hover{
+	display: inline-block;
+	background-color: #fff6a1;
+	width: 100px;
+	color: grey;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.lib-home:active{
+	display: inline-block;
+	background-color: #fff6a1;
+	width: 100px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.lib-home-xy{
+		padding-top: 5px;
+		padding-left: 5px;
 }
