@@ -17,6 +17,11 @@
     font-style: normal;
 }
 
+.html, body {
+	margin: 0;
+	padding:0;
+}
+
 .homepage{
 	font-family: "extrabold";
 	margin: 0px;
@@ -338,6 +343,28 @@
 }
 
 .lib-home-xy{
-		padding-top: 5px;
-		padding-left: 5px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+.lib-plax-item{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px; 
+	margin-right: 100px;
+	}
+
+.lib-plax-bkgd{
+	background: url(../img/lib-bkgd.png) 
+	repeat fixed 100%;
+}
+
+.lib-plax-inner{
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+.lib-plax-btn{
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
