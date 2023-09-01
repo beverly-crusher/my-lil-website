@@ -19,7 +19,7 @@
 
 .html, body {
 	margin: 0;
-	padding:0;
+	padding: 0;
 }
 
 .homepage{
@@ -94,8 +94,9 @@
 	height: 324px;
 	font-size: 55px;
 	color: transparent;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
+	line-height: 1.2;
 }
 
 .home-lib:hover{
@@ -105,8 +106,9 @@
 	height: 324px;
 	font-size: 55px;
 	color: white;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
+	line-height: 1.2;
 }
 
 .home-lib:active{
@@ -116,8 +118,9 @@
 	height: 324px;
 	font-size: 55px;
 	color: black;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
+	line-height: 1.2;
 }
 
 .home-lib-xy{
@@ -125,79 +128,126 @@
 	padding: 60px 60px 60px 60px;
 }
 
-.home-paint{
+.home-gallery{
 	display: inline-block;
-	background-image: url(../img/home-paint.png);
+	background-image: url(../img/home-gallery.png);
 	width: 200px;
 	height: 272px;
 	font-size: 40px;
 	color: transparent;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
 }
-.home-paint:hover{
+
+.home-gallery:hover{
 	display: inline-block;
-	background-image: url(../img/home-paint.png);
+	background-image: url(../img/home-gallery.png);
 	width: 200px;
 	height: 272px;
 	font-size: 40px;
 	color: white;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
 }
 
-.home-paint:active{
+.home-gallery:active{
 	display: inline-block;
-	background-image: url(../img/home-paint.png);
+	background-image: url(../img/home-gallery.png);
 	width: 200px;
 	height: 272px;
 	font-size: 40px;
 	color: black;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
 }
 
-.home-paint-xy{
+.home-gallery-xy{
 	float: left;
 	padding: 60px 60px 60px 60px;
 }
 
-.home-misc{
+.home-opalka{
 	display: inline-block;
-	background-image: url(../img/home-misc.png);
+	background-image: url(../img/home-opalka.png);
 	width: 200px;
 	height: 290px;
 	font-size: 40px;
 	color: transparent;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
 }
 
-.home-misc:hover{
+.home-opalka:hover{
 	display: inline-block;
-	background-image: url(../img/home-misc.png);
+	background-image: url(../img/home-opalka.png);
 	width: 200px;
 	height: 290px;
 	font-size: 40px;
 	color: white;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
 }
 
-.home-misc:active{
+.home-opalka:active{
 	display: inline-block;
-	background-image: url(../img/home-misc.png);
+	background-image: url(../img/home-opalka.png);
 	width: 200px;
 	height: 290px;
 	font-size: 40px;
 	color: black;
-	text-align: justify;
+	text-align: center;
 	text-decoration: none;
 }
 
-.home-misc-xy{
+.home-opalka-xy{
 	float: left;
 	padding: 60px 60px 60px 60px;
+}
+
+.home-repo{
+	display: inline-block;
+	background-image: url(../img/home-repo.jpg);
+	width: 200px;
+	height: 275px;
+	font-size: 45px;
+	color: transparent;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1.2;
+}
+
+.home-repo:hover{
+	display: inline-block;
+	background-image: url(../img/home-repo.jpg);
+	width: 200px;
+	height: 275px;
+	font-size: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1.2;
+}
+
+.home-repo:active{
+	display: inline-block;
+	background-image: url(../img/home-repo.jpg);
+	width: 200px;
+	height: 275px;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1.2;
+}
+
+.home-repo-xy{
+	float: left;
+	padding: 60px 60px 60px 60px;
+}
+
+.repo{
+	font-family: "extrabold";
+	margin-left: 50px;
 }
 
 .taoc{
@@ -314,9 +364,10 @@
 
 .lib-home{
 	display: inline-block;
-	background-color: #fff6a1;
-	width: 100px;
-	color: black;
+	background-color: #fcfcf7;
+	width: 150px;
+	color: #e2b603;
+	font-family: "Arial";
 	font-size: 30px;
 	text-align: center;
 	text-decoration: none;
@@ -324,9 +375,8 @@
 
 .lib-home:hover{
 	display: inline-block;
-	background-color: #fff6a1;
-	width: 100px;
-	color: grey;
+	width: 150px;
+	color: #fcdb56;
 	font-size: 30px;
 	text-align: center;
 	text-decoration: none;
@@ -334,9 +384,8 @@
 
 .lib-home:active{
 	display: inline-block;
-	background-color: #fff6a1;
-	width: 100px;
-	color: white;
+	width: 150px;
+	color: #fcfcae;
 	font-size: 30px;
 	text-align: center;
 	text-decoration: none;
@@ -348,15 +397,18 @@
 }
 
 .lib-plax-item{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px; 
-	margin-right: 100px;
+	background-color: #fcfcf7;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px; 
+	padding-right: 100px;
+	font-family: "Arial"
 	}
 
 .lib-plax-bkgd{
 	background: url(../img/lib-bkgd.png) 
 	repeat fixed 100%;
+	background-color: #fcfcf7;
 }
 
 .lib-plax-inner{
@@ -367,4 +419,109 @@
 .lib-plax-btn{
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+
+.lib-date{
+	text-align: center;
+	color:#707070;
+	font-size: 12px;
+}
+
+.opalka-home{
+	display: inline-block;
+	color: black;	
+	text-decoration: none;
+}
+
+.opalka-home:hover{
+	display: inline-block;
+	color: grey;	
+	text-decoration: none;
+}
+
+.opalka-home:active{
+	display: inline-block;
+	color: #EFEFEF;	
+	text-decoration: none;
+}
+
+.opalka-nav {
+	width: 10%;
+    background: linear-gradient(90deg, #EFEFEF, 80%, #FAFAFA);
+    padding: 15px;
+    height: 100vh;
+	position: sticky;
+	top: 0px;
+	text-align: center;
+}
+
+.opalka-oeuvre {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.opalka-oeuvre-text {
+    flex: 1;
+    background-color: #EFEFEF;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+	overflow: scroll;
+	max-height: 30vh; max-width: 100%;
+}
+
+.opalka-box {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #EFEFEF;
+    padding: 10px;
+	font-family: "Lucida Console";
+	font-size: 12px;
+}
+
+#opalka-detail-1 {
+    flex: 1 1 auto;
+    background-color: #FFF;
+    padding: 10px;
+	overflow: scroll;
+    min-width: 100px;
+    min-height: 100px;
+	max-height: 50vh;
+	text-align: justify;
+}
+/* for future details, copy the same thing but change the background-color, and number the detail to match */
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery_item {
+	border: 5px;
+	border-color: #f2f4a;
+	border-radius: 10px;
+}
+
+.galleryimage{
+	max-height: 100vh;
+	max-width:100vh;
+}
+
+.galleryfullsize {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	display: none;
+	align-items: center;
+	justify-content:center;
+}
+
+.galleryfullsize:target {
+	display: flex;
 }
