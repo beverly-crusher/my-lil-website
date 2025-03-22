@@ -245,6 +245,44 @@
 	padding: 60px 60px 60px 60px;
 }
 
+.home-space{
+	display: inline-block;
+	background-image: url(../img/home-space.jpg);
+	width: 200px;
+	height: 256px;
+	font-size: 45px;
+	color: transparent;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home-space:hover{
+	display: block;
+	background-image: url(../img/home-space.jpg);
+	width: 200px;
+	height: 256px;
+	font-size: 45px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home-space:active{
+	display: inline-block;
+	background-image: url(../img/home-space.jpg);
+	width: 200px;
+	height: 256px;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home-space-xy{
+	float: left;
+	padding: 60px 60px 60px 60px;
+}
+
 .repo{
 	font-family: "extrabold";
 	margin-left: 50px;
