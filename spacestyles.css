@@ -1,0 +1,28 @@
+html {
+	margin: 1em 1em 1em 2em;
+	background-color: #0a0e14;
+	font-family: courier;
+	font-size: 1.5em;
+	color: #bdd7ff;
+}
+
+.link { 
+	text-decoration: none;
+	color: #bdd7ff;
+}
+
+.link:hover { 
+	text-decoration: none;
+	color: #ffe9c9;
+}
+
+.link:active { 
+	text-decoration: none;
+	color: #ffb759;
+}
+
+th, td {
+  border: 1px #bdd7ff;
+  border-radius: 5px;
+  border-style: dotted;
+}
