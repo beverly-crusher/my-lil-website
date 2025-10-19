@@ -9,20 +9,76 @@ html {
 .link { 
 	text-decoration: none;
 	color: #bdd7ff;
+	cursor: pointer;
 }
 
 .link:hover { 
 	text-decoration: none;
 	color: #ffe9c9;
+	cursor: pointer;
 }
 
 .link:active { 
 	text-decoration: none;
 	color: #ffb759;
+	cursor: pointer;
 }
 
 th, td {
-  border: 1px #bdd7ff;
-  border-radius: 5px;
-  border-style: dotted;
+	border: 1px #bdd7ff;
+	border-radius: 5px;
+	border-style: dotted;
+}
+
+.popoverlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #0a0e14;
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.popoverlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	border-radius: 5px;
+	width: 50%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+
+.popup .close {
+	text-decoration: none;
+	color: #bdd7ff;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.popup .close:hover {
+	text-decoration: none;
+	color: #ffe9c9;
+	cursor: pointer;
+}
+
+.popup .close:active {
+	text-decoration: none;
+	color: #ffb759;
+	cursor: pointer;
+}
+
+.popup .content {
+	max-height: 30%;
+	overflow: auto;
 }
