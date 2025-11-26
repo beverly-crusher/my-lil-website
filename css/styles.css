@@ -530,6 +530,17 @@
 	max-height: 50vh;
 	text-align: justify;
 }
+
+#opalka-detail-2 {
+    flex: 1 1 auto;
+    background-color: #fcfcfc;
+    padding: 10px;
+	overflow: scroll;
+    min-width: 100px;
+    min-height: 100px;
+	max-height: 50vh;
+	text-align: justify;
+}
 /* for future details, copy the same thing but change the background-color, and number the detail to match */
 
 .gallery {
